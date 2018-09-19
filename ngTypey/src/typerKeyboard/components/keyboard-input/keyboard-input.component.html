@@ -1,0 +1,6 @@
+<form [formGroup]="profileForm">
+  <h2>Type this sentence:</h2>
+  <h1 *ngIf="showWin; else elseBlock">You are awesome</h1>
+  <ng-template #elseBlock><h1>{{sentence}}</h1></ng-template>
+  <h1>{{key}}</h1>
+</form>
