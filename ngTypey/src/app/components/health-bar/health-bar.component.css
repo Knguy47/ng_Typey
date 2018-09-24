@@ -1,0 +1,16 @@
+.health-bar-label {
+  display: flex;
+}
+
+.health-bar-container {
+  width: 501px;
+  height: 21px;
+  border: solid 0.5px lightslategrey;
+}
+
+.health-bar {
+  width: 100%;
+  height: 20px;
+  background-color: lightgreen;
+  z-index: -10;
+}
